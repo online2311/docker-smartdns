@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.9
+FROM lsiobase/alpine:3.8
 
 # Mostly copied from https://github.com/Leoyzen/docker-smartdns
 LABEL maintainer="RobinVP"
