@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+
+# Create directory for configuration files
+mkdir -p /config
+
+# Add the default SmartDNS config
+[[ ! -f /config/smartdns.conf ]] && cp /smartdns-preconfig.conf /config/smartdns.conf
+
+# Change permissions
+chown -R abc:abc /config 
