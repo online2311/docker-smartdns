@@ -1,0 +1,14 @@
+version: '2'
+services:
+  smartdns:
+    container_name: smartdns
+    hostname: smartdns
+    image: yangliu/smartdns
+    ports:
+      - "5353:53"
+    environment:
+      - PUID=1000
+      - PGID=1000
+    restart: always
+    volumes:
+      - /docker/smartdns:/config
