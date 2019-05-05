@@ -1,0 +1,2 @@
+# docker-smartdns
+Dockerized SmartDNS
