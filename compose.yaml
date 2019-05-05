@@ -5,7 +5,7 @@ services:
     hostname: smartdns
     image: yangliu/smartdns
     ports:
-      - "5353:53"
+      - "5353:53/udp"
     environment:
       - PUID=1000
       - PGID=1000
