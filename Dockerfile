@@ -4,7 +4,7 @@ FROM lsiobase/alpine:3.8
 LABEL maintainer="RobinVP"
 
 ENV TZ='Asia/Shanghai'
-ENV SMARTDNS_RELEASE_LINK='https://github.com/pymumu/smartdns/releases/download/Release24/smartdns.1.2019.04.25-2140.x86_64.tar.gz'
+ENV SMARTDNS_RELEASE_LINK='https://github.com/pymumu/smartdns/releases/download/Release31/smartdns.1.2020.05.04-0005.x86_64-linux-all.tar.gz'
 
 RUN \
     apk add --no-cache openssl libc6-compat curl && \
